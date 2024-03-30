@@ -1,0 +1,346 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cymmetric - Data Services for Better Evaluation and Decision-Making</title>
+	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <meta name="description" content="Cymmetric offers comprehensive data services including data collection, processing, analysis, and dissemination. Cymmetric specializes in research output metadata provision, citation information, metadata standards, bibliometric and scientometric analysis, data modeling, metadata creation and curation, data management and storage, information retrieval and querying, data analysis and visualization, communication, collaboration, provision of analytical services and advice, research evaluation, bibliometric and scientometric analysis, indicator development and benchmarking, research impact assessment, collaboration and engagement analysis, funding analysis and impact, research workforce analysis, ethical and responsible AI application. Contact Cymmetric for high-quality data solutions.">
+    <meta name="keywords" content="Cymmetric, data services, evaluation, decision-making, research output metadata, citation information, metadata standards, controlled vocabularies, taxonomies, ontologies, bibliometrics, scientometrics, data modeling, metadata creation, metadata curation, metadata quality control, data management, information retrieval, data analysis, data visualization, communication, collaboration, continuous learning, analytical services, research evaluation, indicator development, benchmarking, research impact assessment, collaboration analysis, funding analysis, research workforce analysis, ethical AI, responsible AI">
+    <meta name="author" content="Cymmetric Pty Ltd">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Cymmetric",
+      "url": "https://www.cymmetric.com.au",
+      "description": "Cymmetric offers comprehensive data services including data collection, processing, analysis, and dissemination. Specializing in research output metadata provision, citation information, metadata standards, bibliometric and scientometric analysis, data modeling, metadata creation and curation, data management and storage, information retrieval and querying, data analysis and visualization, communication, collaboration, and continuous learning.",
+    }
+    </script>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<style>
+			body {
+			    padding-top: 5px;
+				font-family: 'Noto Serif', serif;
+			}
+			
+			h1, h2, h3, h4, h5, h6 {
+			    font-family: 'Noto Sans', sans-serif;
+			}
+			
+			h1 {
+			    font-size: 36px;
+			    font-weight: 700;
+			}
+
+			h2 {
+			    font-size: 28px;
+			    font-weight: 700;
+			}
+
+			p {
+			    font-size: 16px;
+			    line-height: 1.5;
+			}
+
+			.container {
+			    max-width: 1200px;
+			    margin: 0 auto;
+			    padding: 0 20px;
+			}
+
+			.banner {
+			    background: url('./images/banner.png') no-repeat center center;
+			    background-size: cover;
+			    height: 350px;
+			}
+
+			@media screen and (max-width: 767px) {
+			    .banner {
+			        height: 150px; /* Adjusted height for smaller screens */
+			    }
+			}
+
+			@media screen and (max-width: 479px) {
+			    .banner {
+			        height: 135px; /* Further adjusted height for even smaller screens */
+			    }
+			}
+
+			.section {
+			    padding: 1.5em 0;
+			}
+
+			.section h2 {
+			    margin-top: 0;
+			    margin-bottom: 1em;
+			}
+
+			#services {
+			    margin-top: 1.5em;
+			}
+
+			#principles {
+			    margin-top: 1.5em;
+			}
+
+			#contact {
+			    margin-top: 1.5em;
+			}
+
+			footer {
+			    background-color: white;
+			    color: black;
+			    text-align: center;
+			    padding: 1em;
+			}
+
+			.pure-menu {
+			    display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			}
+
+			.pure-menu-heading {
+			    color: black;
+			    margin-right: auto;
+			}
+
+			.pure-menu-list {
+			    display: flex;
+			    justify-content: flex-end;
+			}
+
+			.pure-menu-item:last-child {
+			    margin-right: 0;
+			}
+
+			.pure-menu-item-envelope {
+			    display: none;
+			}
+
+			@media screen and (max-width: 767px) {
+			    .pure-menu-list li:not(.pure-menu-item-envelope) {
+			        display: none;
+			    }
+
+			    .pure-menu-item-envelope {
+			        display: block;
+			    }
+			}
+
+			.pure-menu-link {
+			    color: black; /* Set default color */
+			}
+
+			.pure-menu-link:hover {
+			    color: #000000; /* Set hover color */
+			}
+
+			.card-container {
+			    display: flex;
+			    flex-wrap: wrap;
+			    justify-content: center;
+			    gap: 20px;
+			}
+
+			.card {
+			    flex: 1 1 300px;
+			    padding: 20px;
+			    text-align: center;
+			}
+
+			.card i {
+			    font-size: 36px;
+			    margin-bottom: 10px;
+			    color: #4D4D4D;
+			}
+
+			.card h3 {
+			    font-size: 24px;
+			    margin-bottom: 10px;
+			    color: #4D4D4D;
+			}
+
+			.card p {
+			    font-size: 16px;
+			    color: #4D4D4D;
+			}
+
+			.card:nth-child(1) {
+			    background-color: #B0A697;
+			}
+
+			.card:nth-child(2) {
+			    background-color: #E4D9C9;
+			}
+
+			.card:nth-child(3) {
+			    background-color: #9FAEBB;
+			}
+
+			.card:nth-child(4) {
+			    background-color: #9FAEBB;
+			}
+
+			#principles .card:nth-child(1) {
+			    background-color: #E0D1BD;
+			}
+
+			#principles .card:nth-child(2) {
+			    background-color: #A6B3C1;
+			}
+
+			.form-card {
+			    max-width: 1200px;
+			    background-color: #E6E6E1;
+			}
+
+			.form-card i {
+			    font-size: 36px;
+			    margin-bottom: 20px;
+			    color: #4D4D4D;
+			}
+
+			.form-card .pure-form {
+			    display: flex;
+			    flex-direction: column;
+			}
+
+			.form-group {
+			    margin-bottom: 20px;
+			}
+
+			.form-group label {
+			    display: block;
+			    text-align: left;
+			    margin-bottom: 5px;
+			}
+
+			.form-input {
+			    width: 100%;
+			    padding: 10px;
+			    border: 1px solid #ccc;
+			    border-radius: 4px;
+			}
+
+			.form-input:focus {
+			    outline: none;
+			    border-color: #1f8dd6;
+			}
+
+			.pure-button-primary {
+			    background-color: #4283A6;
+			    color: #fff;
+			    border: none;
+			    padding: 10px 20px;
+			    border-radius: 4px;
+			    cursor: pointer;
+			}
+
+			.pure-button-primary:hover {
+			    background-color: #000000;
+			}
+		</style>
+	</head>
+	<body>
+	    <div class="container">
+    		<div class="pure-menu pure-menu-horizontal">
+    		    <a href="#" class="pure-menu-heading">Cymmetric</a>
+    		    <ul class="pure-menu-list">
+    		        <li class="pure-menu-item"><a href="#services" class="pure-menu-link">Services</a></li>
+    		        <li class="pure-menu-item"><a href="#principles" class="pure-menu-link">Principles</a></li>
+    		        <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+    		        <li class="pure-menu-item-envelope">
+    		            <a href="#contact" class="pure-menu-link"><i class="fas fa-envelope"></i></a>
+    		        </li>
+    		    </ul>
+    		</div>
+    
+    		<div class="banner">
+    		</div>
+    		
+    		<!-- Data Services Section -->
+    		<div id="services" class="section">
+    		    <h2>Our Services</h2>
+    		    <div class="card-container">
+    		        <div class="card">
+    		            <i class="fas fa-database"></i>
+    		            <h3>Data Collection</h3>
+    		            <p>We collect high-quality data to support your business needs.</p>
+    		        </div>
+    		        <div class="card">
+    		            <i class="fas fa-cogs"></i>
+    		            <h3>Processing</h3>
+    		            <p>Our experts process and clean your data to ensure accuracy and reliability.</p>
+    		        </div>
+    		        <div class="card">
+    		            <i class="fas fa-chart-bar"></i>
+    		            <h3>Analysis</h3>
+    		            <p>We provide in-depth analysis to help you understand your data and make informed decisions.</p>
+    		        </div>
+    		        <div class="card">
+    		            <i class="fas fa-share-alt"></i>
+    		            <h3>Dissemination</h3>
+    		            <p>We help you share your findings with the world through effective dissemination strategies.</p>
+    		        </div>
+    		    </div>
+    		</div>	
+    			
+    		<!-- Principles Section -->
+    		<div id="principles" class="section">
+    		    <h2>Our Principles</h2>
+    		    <div class="card-container">
+    		        <div class="card">
+    		            <i class="fas fa-unlock"></i>
+    		            <h3>Open Data</h3>
+    		            <p>We believe in the power of open data. Wherever possible we use data that is freely available and accessible to everyone.</p>
+    		        </div>
+    		        <div class="card">
+    		            <i class="fas fa-code"></i>
+    		            <h3>Open Technology</h3>
+    		            <p>We use open-source technologies. Our tools are transparent and collaborative.</p>
+    		        </div>
+    		    </div>
+    		</div>
+    
+    		<!-- Contact Us Section -->
+    		<div id="contact" class="section">
+    		    <h2>Contact Us</h2>
+    		    <div class="card-container">
+    		        <div class="card form-card">
+    		            <i class="fas fa-envelope"></i>
+    					<h3>Send A Message</h3>
+						<p>Get in touch with us today to see how we can help you.</p>
+    		            
+						<form class="pure-form" action="https://formspree.io/f/mjvnaozk" method="POST">
+    		                <div class="form-group">
+    		                    <label for="name">Name</label>
+    		                    <input id="name" type="text" placeholder="Your Name" class="form-input" name="name">
+    		                </div>
+    		                <div class="form-group">
+    		                    <label for="email">Email</label>
+    		                    <input id="email" type="email" name="email" placeholder="Your Email" class="form-input">
+    		                </div>
+    		                <div class="form-group">
+    		                    <label for="message">Message</label>
+    		                    <textarea id="message" name="message" placeholder="Your Message" class="form-input"></textarea>
+    		                </div>
+    		                <button type="submit" class="pure-button pure-button-primary">Send</button>
+    		            </form>
+						
+    		        </div>
+    		    </div>
+    		</div>
+    		
+    		<footer class="section">
+    			<p>
+    				© 2024 Cymmetric Pty Ltd ABN 53 675 981 567. All rights reserved.
+    			</p>
+    		</footer>
+		</div>
+	
+</body></html>
